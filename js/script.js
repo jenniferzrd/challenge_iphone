@@ -13,6 +13,22 @@ $(document).ready(function(){
   var d = new Date($.now());
   var n = d.getDate();
   $(".calendar").text(n);
+
+  var minutes = d.getMinutes();
+  var hours = d.getHours();
+  $(".heure").text(hours + ":" + minutes);
+
+  var m_names = new Array("January", "February", "March",
+  "April", "May", "June", "July", "August", "September",
+  "October", "November", "December");
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth();
+  var yyyy = today.getFullYear();
+  if(dd<10) { dd='0'+dd }
+  var date= m_names[mm]+' '+dd+', '+yyyy;
+  $(".date_index").text(date);
+
   // slider luminosite
   var slider = document.getElementById('test5');
   noUiSlider.create(slider, {
@@ -28,5 +44,5 @@ $(document).ready(function(){
     })
   });
   //
-$('.pull-me').click();
+  $('.pull-me').click();
 });
