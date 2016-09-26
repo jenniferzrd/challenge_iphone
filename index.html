@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Challenge_iphone</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="row">
+    <div class="col s5 l4 ico-left">
+      <i class="material-icons ico-top" style="font-size:12px;">brightness_1</i>
+      <i class="material-icons ico-top" style="font-size:12px;">brightness_1</i>
+      <i class="material-icons ico-top" style="font-size:12px;">brightness_1</i>
+      <i class="material-icons ico-top" style="font-size:12px;">brightness_1</i>
+      <i class="material-icons" style="font-size:12px;">panorama_fish_eye</i>
+      <span class="white-txt"> VIRGIN </span>
+      <i class="material-icons ico-top" style="font-size:15px;">wifi</i>
+    </div>
+    <div class="col s3 l4" style="display: flex; justify-content: center;">
+      <a class="waves-effect grey btn top-btn center"></a>
+    </div>
+    <div class="col s4 l4 ico-right">
+      <i class="material-icons ico-top" style="font-size:18px">bluetooth</i>
+      <span class="white-txt">82%</span>
+      <i class="material-icons ico-top" style="transform:rotate(90deg)">battery_std</i>
+      <i class="material-icons ico-top" style="font-size:14px;">flash_on</i>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s6 offset-s3 center heure-date">
+      <h1>15:15</h1>
+      <h6>Vendredi, 16 septembre </h6>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col s12" style="margin: 0; text-align: center; position: absolute; bottom: 0; left: 0;">
+    <div class="col s12 unlock">
+      <i class="material-icons arrow-r">keyboard_arrow_right</i>
+      <a href="app.html"><h5>slide to unlock</h5></a>
+    </div>
+    <div class="col s12 align-bottom-ico">
+    <div class="col s8 l8 pos-bottom-btn">
+
+      <!-- Modal Trigger -->
+
+      <a class="waves-effect grey btn modal-trigger bottom-btn" href="#modal1"></a>
+    </div>
+    <div class="col s4 camera">
+      <i class="material-icons ico-top">camera_alt</i>
+    </div>
+
+    <!-- Modal Structure -->
+
+    <div id="modal1" class="modal bottom-sheet color-modal">
+      <div class="modal-header">
+        <div class=" modal-action modal-close waves-effect waves-green btn-flat pos-arrow-down">
+          <i class="material-icons" style="font-size:30px;">keyboard_arrow_down</i>
+        </div>
+      </div>
+      <div class="modal-content pos-ico-modal">
+        <i class="material-icons round-ico">airplanemode_active</i>
+        <i class="material-icons round-ico"> wifi</i>
+        <i class="material-icons round-ico"> bluetooth</i>
+        <i class="material-icons round-ico">brightness_3</i>
+        <i class="material-icons round-ico">lock_outline</i>
+      </div>
+      <div class="bg-form">
+        <form action="#">
+          <p class="range-field display-luminosity">
+            <i class="material-icons padding-ico-luminosity" style="font-size:12px;">wb_sunny</i>
+            <input type="range" id="test5" min="0" max="100" />
+            <i class="material-icons padding-ico-luminosity">wb_sunny</i>
+          </p>
+        </form>
+      </div>
+      <div class="display-luminosity" style="padding-top:30px;">
+        <i class="material-icons padding-ico-player" style="font-size:30px;">skip_previous</i>
+        <i class="material-icons play-modal padding-ico-player" style="font-size:30px;">play_arrow</i>
+        <i class="material-icons padding-ico-player" style="font-size:30px;">skip_next</i>
+      </div>
+
+      <form action="#">
+        <p class="range-field display-luminosity">
+          <i class="material-icons padding-ico-luminosity" style="font-size:12px;">volume_mute</i>
+          <input type="range" id="test5" min="0" max="100" />
+          <i class="material-icons padding-ico-luminosity">volume_up</i>
+        </p>
+      </form>
+
+      <div class="air">
+        <div class="col s6 bg-air" style="border-right:solid 1px white;">
+          <i class="material-icons" style="font-size:30px;">fingerprint</i>
+        </div>
+        <div class="col s6 bg-air">
+          <i class="material-icons" style="font-size:30px;">line_style</i>
+        </div>
+      </div>
+
+      <div class="col s3 air-f">
+        <i class="material-icons round-b-ico" style="font-size:30px;"> build</i>
+      </div>
+      <div class="col s3 air-f">
+        <i class="material-icons round-b-ico" style="font-size:30px;">alarm</i>
+      </div>
+      <div class="col s3 air-f">
+        <i class="material-icons round-b-ico" style="font-size:30px;">developer_board</i>
+      </div>
+      <div class="col s3 air-f">
+        <i class="material-icons round-b-ico" style="font-size:30px;">camera_alt</i>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
