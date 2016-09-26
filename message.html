@@ -30,7 +30,7 @@
         <i class="material-icons ico-top-msg" style="font-size:15px;">wifi</i>
       </div>
       <div class="col s3 l4" style="text-align: center;">
-        <span class="clock-top2">4:21 PM</span>
+        <span class="clock-top2 heure2">4:21 PM</span>
       </div>
       <div class="col s4 l4 ico-right">
         <i class="material-icons ico-top-msg" style="font-size:18px">bluetooth</i>
@@ -52,24 +52,52 @@
       </div>
     </div>
     <!-- SEARCH -->
-    <div class="search-wrapper card size-card" style="margin-bottom:0;">
-      <input class="input-search">
-      <span class="center"> Rechercher </span>
-      <i class="material-icons position-search">search</i>
+  <div class="container-full">
+    <nav class="white">
+      <div class="nav-wrapper center-nav">
+        <form>
+          <div class="input-field white">
+            <input id="search" type="search" required placeholder="Rechercher">
+            <label for="search"><i class="material-icons black-text">search</i></label>
+            <!-- I've put "red-text" class to emphasize -->
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="row bg-contact" style="margin-bottom:0;">
+    <div class="col s12">
+      <div class="col s12 borderb">
+        <div class="col s10 contact">
+          <a href="conversation.html">
+            <img class="radius-contact" src="iphone-gallery/male-21.jpg"/>
+            <div class="text-contact">
+              <h5>Pierre Legrand</h5>
+              <h6>EY j'ai un bon plan pour jeudi...<h6>
+              </a>
+            </div>
+          </div>
+          <div class="col s2 right-contact">
+            <h6>14:56</h6>
+            <i class="material-icons ico-arrow-contact">keyboard_arrow_right</i>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- CONTACT -->
     <div class="row bg-contact" style="margin-bottom:0;">
       <div class="col s12">
         <div class="col s12 borderb">
           <div class="col s10 contact">
-            <a href="conversation.html">
-              <img class="radius-contact" src="iphone-gallery/male-21.jpg"/>
+            <a href="#" style="display: flex;">
+              <span class="radius-txt-contact"> MM </span>
               <div class="text-contact">
-                <h5>Pierre Legrand</h5>
-                <h6>EY j'ai un bon plan pour jeudi...<h6>
-                </a>
-              </div>
+                <h5>Marie Madeleine</h5>
+                <h6>Toujours ok ?<h6>
+                </div>
+              </a>
             </div>
             <div class="col s2 right-contact">
               <h6>14:56</h6>
@@ -79,31 +107,29 @@
         </div>
       </div>
 
+
       <div class="row bg-contact" style="margin-bottom:0;">
         <div class="col s12">
           <div class="col s12 borderb">
-            <div class="col s10 contact">
-              <a href="#" style="display: flex;">
-                <span class="radius-txt-contact"> MM </span>
+            <a href="app.html" style="display:block;">
+              <div class="col s9 contact">
+                <span class="radius-txt-contact-empty"> </span>
                 <div class="text-contact">
-                  <h5>Marie Madeleine</h5>
-                  <h6>Toujours ok ?<h6>
+                  <h5></h5>
+                  <h6><h6>
                   </div>
-                </a>
+                </div>
+                <div class="col s3 right-contact">
+                  <h6></h6>
+                </div>
               </div>
-              <div class="col s2 right-contact">
-                <h6>14:56</h6>
-                <i class="material-icons ico-arrow-contact">keyboard_arrow_right</i>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
-
-
-          <div class="row bg-contact" style="margin-bottom:0;">
-            <div class="col s12">
-              <div class="col s12 borderb">
-                <a href="app.html" style="display:block;">
+        <div class="row bg-contact" style="margin-bottom:0;">
+          <div class="col s12">
+            <div class="col s12 borderb">
+              <a href="app.html" style="display:block;">
                 <div class="col s9 contact">
                   <span class="radius-txt-contact-empty"> </span>
                   <div class="text-contact">
@@ -115,13 +141,13 @@
                     <h6></h6>
                   </div>
                 </div>
-                              </a>
-              </div>
+              </a>
             </div>
-            <div class="row bg-contact" style="margin-bottom:0;">
-              <div class="col s12">
-                <div class="col s12 borderb">
-                                  <a href="app.html" style="display:block;">
+          </div>
+          <div class="row bg-contact" style="margin-bottom:0;">
+            <div class="col s12">
+              <div class="col s12 borderb">
+                <a href="app.html" style="display:block;">
                   <div class="col s9 contact">
                     <span class="radius-txt-contact-empty"> </span>
                     <div class="text-contact">
@@ -134,26 +160,8 @@
                     </div>
                   </div>
                 </a>
-                </div>
               </div>
-              <div class="row bg-contact" style="margin-bottom:0;">
-                <div class="col s12">
-                  <div class="col s12 borderb">
-                                    <a href="app.html" style="display:block;">
-                    <div class="col s9 contact">
-                      <span class="radius-txt-contact-empty"> </span>
-                      <div class="text-contact">
-                        <h5></h5>
-                        <h6><h6>
-                        </div>
-                      </div>
-                      <div class="col s3 right-contact">
-                        <h6></h6>
-                      </div>
-                    </div>
-                  </a>
-                  </div>
-                </div>
             </div>
-          </body>
-          </html>
+          </div>
+        </body>
+        </html>

@@ -18,6 +18,10 @@ $(document).ready(function(){
   var hours = d.getHours();
   $(".heure").text(hours + ":" + minutes);
 
+  var minutes = d.getMinutes();
+  var hours = d.getHours();
+  $(".heure2").text(hours + ":" + minutes + " " + " PM");
+
   var m_names = new Array("January", "February", "March",
   "April", "May", "June", "July", "August", "September",
   "October", "November", "December");
